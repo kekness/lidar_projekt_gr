@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VelodyneReader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcb41ccdfaa5a3f44619dffa1d9779a341558ded")]
 [assembly: System.Reflection.AssemblyProductAttribute("VelodyneReader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VelodyneReader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

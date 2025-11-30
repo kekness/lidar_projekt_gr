@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kJb7/2eIg90=",
+  "dgSpecHash": "YvvWux7E8zg=",
   "success": true,
-  "projectFilePath": "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
+  "projectFilePath": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wfedd\\.nuget\\packages\\packetdotnet\\1.4.8\\packetdotnet.1.4.8.nupkg.sha512",
+    "C:\\Users\\wfedd\\.nuget\\packages\\raylib-cs\\7.0.2\\raylib-cs.7.0.2.nupkg.sha512",
     "C:\\Users\\wfedd\\.nuget\\packages\\sharppcap\\6.3.1\\sharppcap.6.3.1.nupkg.sha512",
     "C:\\Users\\wfedd\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
     "C:\\Users\\wfedd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

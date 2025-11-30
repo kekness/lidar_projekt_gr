@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj": {}
+    "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj": {}
   },
   "projects": {
-    "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj": {
+    "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
+        "projectUniqueName": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
         "projectName": "VelodyneReader",
-        "projectPath": "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
+        "projectPath": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
         "packagesPath": "C:\\Users\\wfedd\\.nuget\\packages\\",
-        "outputPath": "E:\\pobrane\\asd\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\obj\\",
+        "outputPath": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files\\Microsoft Visual Studio Shared\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "PacketDotNet": {
               "target": "Package",
               "version": "[1.4.8, )"
+            },
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "SharpPcap": {
               "target": "Package",
