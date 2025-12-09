@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net9.0-windows7.0": {
       "PacketDotNet/1.4.8": {
         "type": "package",
         "dependencies": {
@@ -248,43 +248,36 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net9.0-windows7.0": [
       "PacketDotNet >= 1.4.8",
       "Raylib-cs >= 7.0.2",
       "SharpPcap >= 6.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wfedd\\.nuget\\packages\\": {},
-    "E:\\Program Files\\Microsoft Visual Studio Shared\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Wodymidaj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
+      "projectUniqueName": "C:\\Users\\Wodymidaj\\Desktop\\programowanie\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
       "projectName": "VelodyneReader",
-      "projectPath": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
-      "packagesPath": "C:\\Users\\wfedd\\.nuget\\packages\\",
-      "outputPath": "E:\\pobrane\\lidar\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\obj\\",
+      "projectPath": "C:\\Users\\Wodymidaj\\Desktop\\programowanie\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\VelodyneReader.csproj",
+      "packagesPath": "C:\\Users\\Wodymidaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wodymidaj\\Desktop\\programowanie\\lidar_projekt_gr\\lidar_cs\\VelodyneReader\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "E:\\Program Files\\Microsoft Visual Studio Shared\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wfedd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Wodymidaj\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net9.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
       },
@@ -298,11 +291,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "dependencies": {
           "PacketDotNet": {
             "target": "Package",
@@ -328,12 +321,36 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.11, 9.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
